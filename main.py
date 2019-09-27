@@ -5,3 +5,4 @@ from detector import Timestamp as T
 image = cv2.imread('test.png')
 x=T(image)
 x.getTime()
+
